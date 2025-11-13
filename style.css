@@ -297,12 +297,18 @@ body{
 }
 
 .plans{
-   
+    
     width: 100%;
     height: 70vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
 }
 
-.plans h1{
+.secplan{
+    margin-top: 50px;
     color: white;
     display: flex;
     justify-content: center;
@@ -374,6 +380,7 @@ body{
     border-radius: 10px;
     font-size: 20px;
     color: white;
+    box-shadow: 0 0 30px 5px rgb(35, 35, 241);
 }
 .mounth1{
     display: flex;
@@ -463,6 +470,7 @@ body{
     border-radius: 10px;
     font-size: 20px;
     color: white;
+    box-shadow: 0 0 30px 5px rgb(148, 35, 241);
 }
 .mounth2{
     display: flex;
@@ -541,6 +549,7 @@ body{
     border-radius: 10px;
     font-size: 20px;
     color: white;
+    box-shadow: 0 0 30px 5px gold;
 }
 .mounth3{
     display: flex;
