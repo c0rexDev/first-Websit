@@ -595,6 +595,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 
 }
 
@@ -670,7 +671,7 @@ body{
     border: 1px solid white;
     border-radius: 10px;
     color: white;
-    background-image: radial-gradient(circle, rgb(66, 0, 66),rgb(17, 17, 17));
+    background-image: radial-gradient(circle, rgb(0, 15, 66),rgb(17, 17, 17));
 
 }
 
@@ -680,7 +681,7 @@ body{
     background-color: purple;
     border-radius: 10px;
     border: 1px solid white;
-    background-image: url(./image/ceb116bf-a211-4dbf-be59-37291cac5c90.png), radial-gradient(circle, rgb(252, 55, 252),rgb(29, 28, 29));
+    background-image: url(./image/pngwing.com.png), radial-gradient(circle, rgb(58, 55, 252),rgb(14, 12, 48));
     background-size: contain;  
     background-repeat: no-repeat; 
     background-position: center;
@@ -688,13 +689,13 @@ body{
 }
 
 .service2 h1{
-    background-image: linear-gradient(to right,#FC5C7D,#ffffff);
+    background-image: linear-gradient(to right,#5f5cfc,#ffffff);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     animation: accc 2s linear infinite;
     background-size: 300%, 100%;
-    text-shadow: 0 0 10px rgb(231, 15, 231);
+    text-shadow: 0 0 10px rgb(37, 15, 231);
     font-size: 29px;
 }
 
@@ -720,8 +721,75 @@ body{
     margin-left: 100px;
     border: 1px white solid;
     border-radius: 10px;
-    background-image: linear-gradient(to right, #FF0099,#a86990);
+    background-image: linear-gradient(to right, #0011ff,#696da8);
     color: white;
-    box-shadow: 0 0 30px 5px rgb(220, 44, 255);
+    box-shadow: 0 0 30px 5px rgb(58, 44, 255);
+    margin-top: 15px;
+}
+
+
+
+
+
+
+.service3{
+    width: 39vh;
+    height: 24vh;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    background-image: radial-gradient(circle, rgb(0, 15, 66),rgb(17, 17, 17));
+
+}
+
+.imageser3{
+    height: 70px;
+    width: 70px;
+    background-color: purple;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-image: url(./image/pngwing.com.png), radial-gradient(circle, rgb(58, 55, 252),rgb(14, 12, 48));
+    background-size: contain;  
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-color: white;
+}
+
+.service3 h1{
+    background-image: linear-gradient(to right,#5f5cfc,#ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: accc 2s linear infinite;
+    background-size: 300%, 100%;
+    text-shadow: 0 0 10px rgb(37, 15, 231);
+    font-size: 29px;
+}
+
+.heservi3{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.service3 p{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-left: 20px;
+
+}
+
+.service3 button{
+    height: 40px;
+    width: 130px;
+    margin-left: 100px;
+    border: 1px white solid;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #0011ff,#696da8);
+    color: white;
+    box-shadow: 0 0 30px 5px rgb(58, 44, 255);
     margin-top: 15px;
 }
