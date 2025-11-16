@@ -314,6 +314,9 @@ body{
     display: flex;
     justify-content: center;
     text-shadow: 0 0 10px white;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    border-inline-start: #0011ff;
     
 }
 
@@ -629,6 +632,8 @@ body{
     align-items: center;
     color: white;
     text-shadow: 0 0 10px white;
+    border-top: 1px solid white;
+    padding-top: 20px;
 }
 
 .services-head{
@@ -643,6 +648,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 100px;
+    
 
 }
 
